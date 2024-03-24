@@ -1,0 +1,50 @@
+{
+  "name": "next-base",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/microvn/nextjs-startkit.git"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server",
+    "build": "next build src",
+    "start": "cross-env NODE_ENV=production node server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "http-proxy-middleware": "^0.18.0",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash-uuid": "0.0.3",
+    "lodash.flowright": "3.5.0",
+    "next": "^12.1.0",
+    "next-redux-saga": "3.0.0-beta.2",
+    "next-redux-wrapper": "^2.0.0",
+    "next-routes": "^1.4.2",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^17.0.2",
+    "react-cookie": "^3.0.4",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "webpack": "^5.69.1"
+  },
+  "devDependencies": {
+    "classnames": "^2.2.6",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "cross-env": "^5.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "formik": "^0.11.11",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "sw-precache-webpack-plugin": "^0.7.2",
+    "webpack-filter-warnings-plugin": "^1.2.1",
+    "yup": "^0.32.11"
+  }
+}
